@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Management System</title>
+
+
+    
+
+    <link rel="stylesheet" href="project.css">
+
+</head>
+
+
+<body>
+
+
+    
+
+    <h1>Student Management System</h1>
+
+
+    <!--DARK MODE -->
+
+    <button id="themeButton">Dark Mode</button>
+
+
+    <!-- DASHBOARD -->
+
+    <div class="dashboard">
+
+        <div class="card">
+            Total Students:
+            <span id="totalCount">0</span>
+        </div>
+
+        <div class="card">
+            Present:
+            <span id="presentCount">0</span>
+        </div>
+
+        <div class="card">
+            Absent:
+            <span id="absentCount">0</span>
+        </div>
+
+    </div>
+
+
+    <!-- TOTAL STUDENTS  -->
+
+    <h3>
+        Total Students:
+        <span id="totalStudents">0</span>
+    </h3>
+
+
+    <hr>
+
+
+    <!-- ==================== WELCOME MESSAGE ==================== -->
+
+    <p>
+        Welcome to Student Management System
+    </p>
+
+
+    <!-- ==================== ADD STUDENT FORM ==================== -->
+
+    <div class="student-form">
+
+        <input
+            type="text"
+            id="studentName"
+            placeholder="Enter Student Name"
+        >
+
+        <input
+            type="email"
+            id="studentEmail"
+            placeholder="Enter Student Email"
+        >
+
+        <input
+            type="text"
+            id="studentCourse"
+            placeholder="Enter Course"
+        >
+
+        <button id="addStudentBtn">
+            Add Student
+        </button>
+
+    </div>
+
+
+    <!-- ==================== STUDENT LIST ==================== -->
+
+    <h2>Student List</h2>
+
+
+    <!-- ==================== SEARCH STUDENT ==================== -->
+
+    <input
+        type="text"
+        id="searchStudent"
+        placeholder="Search Student"
+    >
+
+
+    <br>
+    <br>
+
+
+    <!-- ==================== STUDENT TABLE ==================== -->
+
+    <div class="table-container">
+
+        <table id="studentTable">
+
+            <!-- ---------- Table Header ---------- -->
+
+            <tr>
+
+                <th>Student Name</th>
+
+                <th>Email</th>
+
+                <th>Course</th>
+
+                <th>Attendance</th>
+
+                <th>Marks</th>
+
+                <th>Percentage</th>
+
+                <th>Grade</th>
+
+                <th>Action</th>
+
+            </tr>
+
+        </table>
+
+    </div>
+
+
+    <!-- ==================== JAVASCRIPT FILE ==================== -->
+
+    <script src="project.js"></script>
+
+
+</body>
+
+</html>
+
